@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sitecore.Wffm.AzureUploadField</id>
+    <version>1.0.0.4</version>
+    <title>Sitecore WFFM Azure Upload Field</title>
+    <authors>Cucumber</authors>
+    <owners>Cucumber</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Installation: Add new field type in WFFM manually
+    </description>
+    <copyright>Copyright 2016</copyright>
+    <tags>Azure, WFFM</tags>
+    <dependencies>
+      <dependency id="ImageResizer" version="4.0.5"  />
+      <dependency id="Sitecore.Forms.Core.NoReferences" version="8.1.160304" />
+      <dependency id="Sitecore.Forms.Mvc.NoReferences" version="8.1.160304" />
+      <dependency id="Sitecore.Kernel.NoReferences" version="8.1.160302" />
+      <dependency id="Sitecore.Logging.NoReferences" version="8.1.160302" />
+      <dependency id="Sitecore.WFFM.Abstractions.NoReferences" version="8.1.160304"  />
+      <dependency id="WindowsAzure.Storage" version="8.0.1" />
+
+    </dependencies>
+    <!-- Build actions for items in the contentFiles folder -->
+    <contentFiles>
+      <files include="*" buildAction="Content"/>
+    </contentFiles>
+  </metadata>
+  <files>
+    <!--<file src="..\Sitecore.Wffm.AzureUploadField\bin\\Microsoft.WindowsAzure.Storage.dll" target="lib"/>
+    <file src="..\Sitecore.Wffm.AzureUploadField\bin\\ImageResizer.dll" target="lib"/>-->
+    <file src="..\Sitecore.Wffm.AzureUploadField\bin\Sitecore.Wffm.AzureUploadField.dll" target="lib"/>
+    <file src="..\Sitecore.Wffm.AzureUploadField\Views\Form\EditorTemplates\AzureFileUploadField.cshtml" target="content\Views\Form\EditorTemplates\AzureFileUploadField.cshtml"/>
+    <file src="..\Sitecore.Wffm.AzureUploadField\App_Config\Include\Sitecore.Wffm.AzureUploadField.config" target="content\App_Config\Include\Sitecore.Wffm.AzureUploadField.config"/>
+  </files>
+
+</package>

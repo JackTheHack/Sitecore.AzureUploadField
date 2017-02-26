@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureUploadField", "AzureUploadField\AzureUploadField.csproj", "{6CBDDCB4-70DB-4115-B6F4-CC725D1F97F1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetPackages", "NugetPackages", "{FADD139D-87A9-41E3-8713-61808BC0847F}"
+	ProjectSection(SolutionItems) = preProject
+		NugetSpecifications\AzureUpload.nuspec = NugetSpecifications\AzureUpload.nuspec
+		..\..\..\PGW.Core\NugetSpecifications\build.debug.bat = ..\..\..\PGW.Core\NugetSpecifications\build.debug.bat
+		..\..\..\PGW.Core\NugetSpecifications\publish-package.bat = ..\..\..\PGW.Core\NugetSpecifications\publish-package.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Wffm.AzureUploadField", "Sitecore.Wffm.AzureUploadField\Sitecore.Wffm.AzureUploadField.csproj", "{C71B152F-A2DF-4545-8CCE-4667A445BCE0}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDS.AzureUploadField", "TDS.AzureUploadField\TDS.AzureUploadField.scproj", "{A6D1C45B-F62A-4AE9-8DF2-B1C49E5579A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +20,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6CBDDCB4-70DB-4115-B6F4-CC725D1F97F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CBDDCB4-70DB-4115-B6F4-CC725D1F97F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CBDDCB4-70DB-4115-B6F4-CC725D1F97F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CBDDCB4-70DB-4115-B6F4-CC725D1F97F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71B152F-A2DF-4545-8CCE-4667A445BCE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71B152F-A2DF-4545-8CCE-4667A445BCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71B152F-A2DF-4545-8CCE-4667A445BCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71B152F-A2DF-4545-8CCE-4667A445BCE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D1C45B-F62A-4AE9-8DF2-B1C49E5579A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D1C45B-F62A-4AE9-8DF2-B1C49E5579A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D1C45B-F62A-4AE9-8DF2-B1C49E5579A8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A6D1C45B-F62A-4AE9-8DF2-B1C49E5579A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D1C45B-F62A-4AE9-8DF2-B1C49E5579A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D1C45B-F62A-4AE9-8DF2-B1C49E5579A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
