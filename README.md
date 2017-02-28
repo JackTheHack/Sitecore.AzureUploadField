@@ -9,5 +9,5 @@ Items NuGet package
 - https://www.myget.org/feed/jackspektor/package/nuget/Sitecore.Wffm.AzureUploadField.TDS
 
 Installation via update package:
-- Download the update package
+- Download the update package from https://marketplace.sitecore.net/Modules/A/Azure_Upload_WFFM_Field.aspx
 - Install it using the admin installation page
