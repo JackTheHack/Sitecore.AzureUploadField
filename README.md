@@ -4,7 +4,8 @@ This is Sitecore module. This package allows to upload the WFFM files to the Azu
 
 Installation via NuGet:
 
-Files NuGet package - https://www.myget.org/feed/jackspektor/package/nuget/Sitecore.Wffm.AzureUploadField
+Files NuGet package 
+- https://www.myget.org/feed/jackspektor/package/nuget/Sitecore.Wffm.AzureUploadField
 
 Items NuGet package
 - https://www.myget.org/feed/jackspektor/package/nuget/Sitecore.Wffm.AzureUploadField.TDS
